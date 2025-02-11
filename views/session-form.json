@@ -1,0 +1,13 @@
+[{
+    "xtype": "treepanel",
+    "ui": "flat-light",
+    "anchor": "100% 100%",
+    "rootVisible": true,
+    "root": {
+        "id": "root",
+        "expanded": true,
+        "leaf": false,
+        "text": "@rootText",
+        "children": "@rootChildren"
+    }
+}]

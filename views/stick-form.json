@@ -1,0 +1,129 @@
+[
+    {
+        "xtype": "displayfield",
+        "ui": "parameter-head",
+        "fieldLabel": "#Stick",
+        "labelWidth": 90,
+        "name": "stick"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter-head",
+        "fieldLabel": "#Date",
+        "labelWidth": 90,
+        "name": "date"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter-head",
+        "fieldLabel": "#Ip address",
+        "labelWidth": 90,
+        "name": "ipaddress"
+    },
+    {
+        "html": "<br>"
+    },
+    {
+        "xtype": "label",
+        "ui": "header",
+        "text": "#Module"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "ID",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "moduleId"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Name",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "moduleName"
+    },
+    {
+        "xtype": "label",
+        "ui": "header",
+        "text": "#Controller"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "ID",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "queryId"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Action",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "action"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Name",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "controller"
+    },
+    {
+        "xtype": "label",
+        "ui": "header",
+        "text": "#Request"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#OS",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "osName"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Browser",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "browserName"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Method",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "method"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Route",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "route"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "AJAX",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "ajax"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Status code",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "statusCode"
+    }
+]

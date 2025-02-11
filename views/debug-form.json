@@ -1,0 +1,15 @@
+[{
+    "xtype": "gridpanel",
+    "layout": "fit",
+    "anchor": "100% 100%",
+    "store": {
+        "fields": ["name", "type", "size", "value"],
+        "data": "@storeData"
+    },
+    "columns": [
+        {"text": "#Name", "dataIndex": "name", "width": 120},
+        {"text": "#Type", "dataIndex": "type", "width": 80},
+        {"text": "#Size", "dataIndex": "size", "width": 80},
+        {"text": "#Value", "dataIndex": "value", "flex": 2}
+    ]
+}]

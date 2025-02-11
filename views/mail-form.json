@@ -1,0 +1,91 @@
+[{
+    "xtype": "gridpanel",
+    "layout": "fit",
+    "anchor": "100% 100%",
+    "store": {
+        "data": "@storeData",
+        "fields": [
+            {"name": "message", "type": "string"},
+            {"name": "messageId", "type": "string"},
+            {"name": "subject", "type": "string"},
+            {"name": "to", "type": "string"}
+        ]
+    },
+    "columns": [
+        {
+            "text": "#Mail description",
+            "dataIndex": "message",
+            "hidden": true,
+            "width": 120
+        },
+        {
+            "text": "#Message ID",
+            "dataIndex": "messageId",
+            "width": 120
+        },
+        {
+            "text": "#Subject",
+            "dataIndex": "subject",
+            "width": 160
+        },
+        {
+            "text": "#Address To",
+            "tooltip": "The main recipient of the letter",
+            "dataIndex": "to",
+            "width": 160
+        },
+        {
+            "text": "#Address From",
+            "dataIndex": "from",
+            "width": 160
+        },
+        {
+            "text": "#Address Reply-To",
+            "tooltip": "#Mailing address",
+            "dataIndex": "replyTo",
+            "hidden": true,
+            "width": 160
+        },
+        {
+            "text": "#Address Cc",
+            "tooltip": "#Cc (carbon copy)",
+            "dataIndex": "cc",
+            "hidden": true,
+            "width": 160
+        },
+        {
+            "text": "#Address Bcc",
+            "tooltip": "#Bcc (blind carbon copy)",
+            "dataIndex": "bcc",
+            "hidden": true,
+            "width": 160
+        },
+        {
+            "text": "#Error",
+            "dataIndex": "error",
+            "width": 220
+        },
+        {
+            "text": "#Debug steps",
+            "dataIndex": "debugSteps",
+            "width": 220
+        },
+        {
+            "text": "#Headers",
+            "dataIndex": "headers",
+            "hidden": true,
+            "width": 160
+        },
+        {
+            "text": "#Service params",
+            "dataIndex": "service",
+            "hidden": true,
+            "width": 250
+        },
+        {
+            "text": "#Mail body",
+            "dataIndex": "body",
+            "flex": 2
+        }
+    ]
+}]

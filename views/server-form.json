@@ -1,0 +1,10 @@
+[{
+    "xtype": "tabpanel",
+    "ui": "flat-light",
+    "activeTab": 0,
+    "enableTabScroll": true,
+    "layout": "fit",
+    "anchor": "100% 100%",
+    "cls": "g-tab-settings",
+    "items": "@items"
+}]
