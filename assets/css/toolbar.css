@@ -1,0 +1,114 @@
+/*!
+ * Панель, Сетка (Debug, Grid).
+ *
+ * Модуль "Панель инструментов отладчика".
+ *
+ * Copyright 2015 Вeб-студия GearMagic
+ * Copyright Anton Tivonenko <anton.tivonenko@gmail.com>
+ * https://gearmagic.ru/license/
+ */
+
+/* Заливка заднего фона сетки (см. идент. viewManager) */
+#gm-debugtoolbar-grid .x-grid-view {
+    background: url("../images/watermark.svg") no-repeat calc(100% - 25px) calc(100% - 20px);
+    background-size: 100px;
+}
+
+
+/**
+ * Панель инструментов диалогового окна.
+ * Ext.window.Window.cls = "g-window-info g-window-toolbar";
+ */
+.g-window-toolbar code {
+    font: normal 13px/15px "Roboto Condensed", helvetica, arial, verdana, sans-serif;
+}
+
+
+/**
+ * Ячейки сетки.
+ */
+/* Статусы */
+.gm-debugtoolbar-grid__cell-status {
+    padding: 2px 5px 2px 5px;
+    border-radius: 2px;
+}
+.gm-debugtoolbar-grid__cell-status_informational {
+    background-color: #F2F2F2;
+}
+.gm-debugtoolbar-grid__cell-status_success {
+    background-color: #217346; color: #fff;
+}
+.gm-debugtoolbar-grid__cell-status_redirect {
+    background-color: #C6D9F1;
+}
+.gm-debugtoolbar-grid__cell-status_client-error {
+    background-color: #FDE9D9;
+}
+.gm-debugtoolbar-grid__cell-status_server-error {
+    background-color: #FABF8F;
+}
+.gm-debugtoolbar-grid__cell-debug-trace {
+    color: #a8a8a8;
+    margin-bottom: 5px;
+}
+.gm-debugtoolbar-grid__cell-debug-trace > span { color: #667; }
+
+
+/**
+ * Панель вывода в формате JSON.
+ */
+.gm-debugtoolbar-format_json {
+    font: normal 13px/15px "Roboto Condensed", helvetica, arial, verdana, sans-serif;
+    color: #665;
+}
+
+
+/**
+ * Кнопки панели инструментов.
+ */
+ .gm-debugtoolbar__btn { background-color: #F5F5F5; }
+ .gm-debugtoolbar__btn.x-btn-over { border-color: #439467; }
+ 
+
+/**
+ * Панель инструментов сетки.
+ */
+/* Значок "Информация" */
+.gm-debugtoolbar__icon-server-info_large,
+.gm-debugtoolbar__icon-server-info_medium,
+.gm-debugtoolbar__icon-server-info { background-image: url("../images/icon-server-info.svg"); }
+.gm-debugtoolbar__icon-server-info_small { background-image: url("../images/icon-server-info_small.svg"); }
+/* Значок "Состояние" */
+.gm-debugtoolbar__icon-state_large,
+.gm-debugtoolbar__icon-state_medium,
+.gm-debugtoolbar__icon-state { background-image: url("../images/icon-state.svg"); }
+.gm-debugtoolbar__icon-state_small { background-image: url("../images/icon-state_small.svg"); }
+/* Значок "Панель активна" */
+.gm-debugtoolbar__icon-debug-active_large,
+.gm-debugtoolbar__icon-debug-active_medium,
+.gm-debugtoolbar__icon-debug-active { background-image: url("../images/icon-debug-active.svg"); }
+.gm-debugtoolbar__icon-debug-active_small { background-image: url("../images/icon-debug-active_small.svg"); }
+/* Значок "Панель не активна" */
+.gm-debugtoolbar__icon-debug-inactive_large,
+.gm-debugtoolbar__icon-debug-inactive_medium,
+.gm-debugtoolbar__icon-debug-inactive { background-image: url("../images/icon-debug-inactive.svg"); }
+.gm-debugtoolbar__icon-debug-inactive_small { background-image: url("../images/icon-debug-inactive_small.svg"); }
+
+
+/**
+ * Командная строка.
+ */
+.x-form-trigger-default.gm-debugtoolbar-cmd {
+    background: 0 center #fff url("../images/icon-run.svg") no-repeat;
+    opacity: 0.8;
+}
+.x-form-trigger-default.x-form-trigger-over.gm-debugtoolbar-cmd,
+.x-form-trigger-default.x-form-trigger-over.x-form-trigger-focus.gm-debugtoolbar-cmd {
+    background-position: 0 center;
+    opacity: 1;
+}
+/* Значок "Команда" */
+.gm-debugtoolbar__icon-cmd_large,
+.gm-debugtoolbar__icon-cmd_medium,
+.gm-debugtoolbar__icon-cmd { background-image: url("../images/icon-command.svg"); }
+.gm-debugtoolbar__icon-cmd_small { background-image: url("../images/icon-command_small.svg"); }
