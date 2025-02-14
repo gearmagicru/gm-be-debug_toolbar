@@ -1,13 +1,7 @@
 {
     "name": "gearmagicru/gm-be-debug_toolbar",
-    "description": "Control panel module \"Debugger toolbar\"",
-    "keywords": [
-        "gm",
-        "gearmagic",
-        "GM Panel",
-        "module",
-        "debug"
-    ],
+    "description": "Control Panel module \"Debugger toolbar\"",
+    "keywords": ["gearmagic", "gm-panel", "gm-component", "gm-module", "module", "debug"],
     "homepage": "https://apps.gearmagic.ru/component/gm-be-debug_toolbar",
     "type": "component",
     "license": "MIT",
