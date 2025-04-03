@@ -12,8 +12,8 @@
 return [
     'name'        => 'Debugger toolbar',
     'description' => 'Outputting the values of variables, objects and arrays in a structured form at debug points',
-    'version'     => '1.0',
-    'versionDate' => '20-12-2017',
+    'version'     => '1.0.1',
+    'versionDate' => '03-04-2025',
     'author'      => 'GearMagic',
     'authorUrl'   => 'https://gearmagic.ru',
     'email'       => 'anton.tivonenko@gmail.com',
